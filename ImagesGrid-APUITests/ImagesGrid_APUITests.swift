@@ -2,7 +2,7 @@
 //  ImagesGrid_APUITests.swift
 //  ImagesGrid-APUITests
 //
-//  Created by DB-MBP-023 on 17/04/24.
+//  Created by Janarthanan Kannan on 17/04/24.
 //
 
 import XCTest

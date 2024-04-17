@@ -99,9 +99,11 @@
 		FF98952A2BCF8E0E00FC0508 /* ImagesGrid-AP */ = {
 			isa = PBXGroup;
 			children = (
-				FF98952B2BCF8E0E00FC0508 /* AppDelegate.swift */,
-				FF98952D2BCF8E0E00FC0508 /* SceneDelegate.swift */,
-				FF98952F2BCF8E0E00FC0508 /* ViewController.swift */,
+				FF98955D2BCF8E9300FC0508 /* Network */,
+				FF98955E2BCF8E9C00FC0508 /* Model */,
+				FF98955F2BCF8EA200FC0508 /* View */,
+				FF98955C2BCF8E8A00FC0508 /* Controller */,
+				FF98955B2BCF8E7F00FC0508 /* Application */,
 				FF9895312BCF8E0E00FC0508 /* Main.storyboard */,
 				FF9895342BCF8E1000FC0508 /* Assets.xcassets */,
 				FF9895362BCF8E1000FC0508 /* LaunchScreen.storyboard */,
@@ -125,6 +127,44 @@
 				FF98954E2BCF8E1000FC0508 /* ImagesGrid_APUITestsLaunchTests.swift */,
 			);
 			path = "ImagesGrid-APUITests";
+			sourceTree = "<group>";
+		};
+		FF98955B2BCF8E7F00FC0508 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				FF98952B2BCF8E0E00FC0508 /* AppDelegate.swift */,
+				FF98952D2BCF8E0E00FC0508 /* SceneDelegate.swift */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		FF98955C2BCF8E8A00FC0508 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				FF98952F2BCF8E0E00FC0508 /* ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		FF98955D2BCF8E9300FC0508 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		FF98955E2BCF8E9C00FC0508 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		FF98955F2BCF8EA200FC0508 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
