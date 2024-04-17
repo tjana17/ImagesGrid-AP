@@ -16,6 +16,10 @@
 		FF9895432BCF8E1000FC0508 /* ImagesGrid_APTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF9895422BCF8E1000FC0508 /* ImagesGrid_APTests.swift */; };
 		FF98954D2BCF8E1000FC0508 /* ImagesGrid_APUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF98954C2BCF8E1000FC0508 /* ImagesGrid_APUITests.swift */; };
 		FF98954F2BCF8E1000FC0508 /* ImagesGrid_APUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF98954E2BCF8E1000FC0508 /* ImagesGrid_APUITestsLaunchTests.swift */; };
+		FF9895612BCF8F2300FC0508 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF9895602BCF8F2300FC0508 /* NetworkManager.swift */; };
+		FF9895632BCF90A000FC0508 /* ResponseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF9895622BCF90A000FC0508 /* ResponseModel.swift */; };
+		FF9895662BCF945600FC0508 /* ImageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF9895642BCF945600FC0508 /* ImageCell.swift */; };
+		FF9895672BCF945600FC0508 /* ImageCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FF9895652BCF945600FC0508 /* ImageCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +53,10 @@
 		FF9895482BCF8E1000FC0508 /* ImagesGrid-APUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ImagesGrid-APUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF98954C2BCF8E1000FC0508 /* ImagesGrid_APUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagesGrid_APUITests.swift; sourceTree = "<group>"; };
 		FF98954E2BCF8E1000FC0508 /* ImagesGrid_APUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagesGrid_APUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		FF9895602BCF8F2300FC0508 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		FF9895622BCF90A000FC0508 /* ResponseModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResponseModel.swift; sourceTree = "<group>"; };
+		FF9895642BCF945600FC0508 /* ImageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCell.swift; sourceTree = "<group>"; };
+		FF9895652BCF945600FC0508 /* ImageCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ImageCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -149,6 +157,7 @@
 		FF98955D2BCF8E9300FC0508 /* Network */ = {
 			isa = PBXGroup;
 			children = (
+				FF9895602BCF8F2300FC0508 /* NetworkManager.swift */,
 			);
 			path = Network;
 			sourceTree = "<group>";
@@ -156,6 +165,7 @@
 		FF98955E2BCF8E9C00FC0508 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				FF9895622BCF90A000FC0508 /* ResponseModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -163,6 +173,8 @@
 		FF98955F2BCF8EA200FC0508 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				FF9895642BCF945600FC0508 /* ImageCell.swift */,
+				FF9895652BCF945600FC0508 /* ImageCell.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -272,6 +284,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FF9895382BCF8E1000FC0508 /* LaunchScreen.storyboard in Resources */,
+				FF9895672BCF945600FC0508 /* ImageCell.xib in Resources */,
 				FF9895352BCF8E1000FC0508 /* Assets.xcassets in Resources */,
 				FF9895332BCF8E0E00FC0508 /* Main.storyboard in Resources */,
 			);
@@ -298,9 +311,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FF9895612BCF8F2300FC0508 /* NetworkManager.swift in Sources */,
 				FF9895302BCF8E0E00FC0508 /* ViewController.swift in Sources */,
 				FF98952C2BCF8E0E00FC0508 /* AppDelegate.swift in Sources */,
+				FF9895632BCF90A000FC0508 /* ResponseModel.swift in Sources */,
 				FF98952E2BCF8E0E00FC0508 /* SceneDelegate.swift in Sources */,
+				FF9895662BCF945600FC0508 /* ImageCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
